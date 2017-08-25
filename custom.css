@@ -133,6 +133,10 @@ ts-message:hover {
    /*border: 1px solid var(--border-bright) !important*/
 }
 
+.member_preview_link .member_image .thumb36 {
+  border-radius: 18px;
+}
+
 /*#msgs_unread_divider + ts-message:hover, ts-message:first-child {
   margin-top: 1px !important;
 }
