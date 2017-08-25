@@ -396,14 +396,15 @@ ts-message a.timestamp{
   border: 1px solid transparent; /* looks silly but it makes the outline work */
 }
 
-.emoji-sizer {
-   /* outline for black-on-transparent emojis */
+/* This is actually pretty ugly */
+/*.emoji-sizer {
+   /* outline for black-on-transparent emojis * /
    -webkit-filter: drop-shadow( 1px  0 0 var(--background-bright))
                    drop-shadow(-1px  0 0 var(--background-bright))
                    drop-shadow(-0  1px 0 var(--background-bright))
                    drop-shadow( 0 -1px 0 var(--background-bright));
    margin: 0 !important;
-}
+}*/
 
 .ts_icon.ts_icon_smile_o {
    color: var(--text);
